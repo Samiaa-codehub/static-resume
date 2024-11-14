@@ -1,0 +1,199 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        
+    
+        body {
+            background:url(image.png);
+            background-size: cover;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .header1 {
+            display: flex;
+            font-size:45px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            color:brown;
+            padding: 19px;
+            width: 100%;
+            max-width: 700px;
+            border-radius: 10px;
+            box-shadow: 5px 2px 2px 5px rgb(211, 141, 141);
+        }
+        .header1 h1{
+            font-size: 35px;
+            filter:drop-shadow(5px 5px 10px brown);
+        }
+        .header1 p{
+            text-align: center;
+            font-size: 26px;
+            filter:drop-shadow(5px 5px 10px brown)
+        }
+        
+        .profile-pic {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+            margin-left: 150px;
+        }
+        
+        h1 {
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+        
+        p {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        
+
+        .container-main {
+            width: 100%;
+            max-width: 800px;
+            box-shadow: 10px 10px 10px 10px brown;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        
+    
+        fieldset {
+            border: 2px solid brown;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            filter:drop-shadow(5px 5px 10px brown);
+        }
+        
+        legend {
+            font-size: 35px;
+            color:brown;
+            font-weight: 500;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            padding: 0 10px;
+        }
+        
+    
+        section {
+            margin-bottom: 10px;
+        
+        }
+        section label{
+            color: #333;
+            filter:drop-shadow(5px 5px 5px whitesmoke);
+            font-size: 20px;}
+        
+        ul {
+            list-style-type: none;
+            padding-left: 10px;
+        }
+        
+        .bold1 {
+            font-weight: bold;
+            color:brown;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 24px;
+            font-weight: 500;
+            margin-top:15px;
+        }
+        
+        il {
+            color:rgb(83, 94, 105);
+            display: block;
+            font-size: 19px;
+            margin-bottom: 10px;
+            font-weight: 600;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        
+
+        button {
+            padding: 10px 20px;
+            background-color: brown;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            width: 100%;
+            max-width: 800px;
+            margin: 10px auto;
+            box-shadow: 5px 5px 5px whitesmoke;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 16px;
+            
+        }
+        
+        button:hover {
+            background-color:rgb(155, 92, 92);
+        }
+        
+
+        @media (max-width: 768px) {
+            .header1 {
+                flex-direction: column;
+                padding: 10px;
+            }
+        
+            h1 {
+                font-size: 20px;
+            }
+        
+            p {
+                font-size: 14px;
+            }
+        
+            .profile-pic {
+                width: 120px;
+                height: 120px;
+            }
+        
+            fieldset {
+                padding: 10px;
+            }
+        
+            legend {
+                font-size: 16px;
+            }
+        
+            button {
+                padding: 8px 16px;
+                font-size: 14px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .profile-pic {
+                width: 100px;
+                height: 100px;
+            }
+        
+            h1 {
+                font-size: 18px;
+            }
+        
+            p {
+                font-size: 12px;
+            }
+        
+            button {
+                padding: 6px 12px;
+                font-size: 12px;
+            }
+        }
+        
+    
